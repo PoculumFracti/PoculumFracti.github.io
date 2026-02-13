@@ -1,3 +1,135 @@
+<html>
+<head>
+  <style>
+/*
+text6 → Onyx (#3B3B3B)
+text7 → Flame (#EE5815)
+text1 → Radical Red (#F73466)
+text2 → Vivid Blue (#1D69E2)
+text3 → Sunset Sienna (#FB7F64)
+text4 → Forest Green (#53ac69)
+box3 → Creamy Cashmere (#F5EEE2)
+box2 → Pumpkin (#f27013)
+Ultramarine Blue (#4F4CF7)
+*/
+
+p {
+    margin-top: 0.25em;
+    margin-bottom: 0.5em;
+}
+body {
+	color: #3B3B3B; /*Onyx*/
+  background-color: #f27013;/*pumpkin*/
+    font-size: 16px;   /* default, good */
+    line-height: 1.6;  /* critical for mobile */
+}
+h1 {color: #F73466/* Radical Red */}
+h2 {color: #53ac69/* Forest Green*/}
+h3 {color: #994058/*Rosewood*/}
+h4 {color: #FB7F64/*Sunset Sienna*/}
+h5 {color: #38855d/*Medium Sea Green*/}
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 0.5em;    /* space above */
+    margin-bottom: 0.25em; /* space below */
+}
+a:active {color: #1D69E2/*Vivid Blue*/}
+a:visited {color: #4F4CF7/* Ultramarine Blue*/}
+
+.alt {
+  font-size: 14px;
+  color: #FB7F64;//Sunset Sienna
+  font-style: italic;
+  margin-top: 0.25rem;  /* controls gap */
+  line-height: 1.3;     /* tighter caption */
+}
+.background {background-color: #f27013;/*pumpkin*/}
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right:auto;
+    width:100%;
+    box-sizing: border-box;
+    max-width: 40em;
+    background-color: #F5EEE2; /*Creamy Cashmere*/
+    border-radius: 8px;
+    text-align: left;
+    color: black;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-word;
+    padding: 0.5rem 1rem;
+}
+.center > :first-child {
+    margin-top: 0;
+}
+.center > :last-child {
+    margin-bottom: 0;
+}
+.center img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+}
+
+@media (max-width: 480px) {
+    .center {
+        border-radius: 0;
+        padding: 0.75rem;
+ 
+    }
+}
+.tbl {
+  border-collapse: collapse; /* IMPORTANT */
+}
+
+.tbl,
+.tbl th,
+.tbl td {
+  border: 1px solid black;
+}
+.three-cols {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 100%;
+}
+
+
+
+.full-width-table {
+    width: 100%;          /* table fills the div width */
+    table-layout: fixed;  /* forces columns to evenly distribute */
+    border-collapse: collapse;
+}
+
+.full-width-table td {
+    border: 1px solid black;
+    text-align: center;   /* optional: center text in each cell */
+    padding: 0.5rem;
+}
+
+  </style>
+</head>
+  <body>
+  
+<div class="center">
+  <p> I will redo all of this later.  Included will be Koga, Fukuoka, Hiroshima, Kanazawa, and maybe more.</p>
+<table class="full-width-table"><tr><td>
+    <p>Albums</p>
+  <p><a href="/japan2024/index.html">Japan 2024</a></p>
+  <p><a href="/japan2025/japan2025.html">Japan 2025</a></p>
+</td>
+<td>
+  <p>Travel</p>
+  <p><a href="/travel/information.html">Home</a></p>
+  <p><a href="/travel/japan1.html">Before you go</a></p>
+  <p><a href="/travel/packing.html">Packing</a></p>
+</td>
+</tr>
+</table>
+</div>
+<br>
+<div class="center">
 <h1 id="hotels-ryokans-hostels">Hotels, Ryokans, Hostels</h1>
 <p>Stays can be gotten same day often quite easily.</p>
 <ul>
@@ -16,14 +148,16 @@
 <li>small room or double &gt; check pictures.  Some rooms are the size of one queen size mattress.  Some are very large.  </li>
 <li>Sometimes industrial style with cement floors</li>
 <li>Almost always a shared bathroom.</li>
-<li>Website usually has best price, and if you are a returning guest you can get an even cheaper deal through suave negotiation tactics.<h4 id="ryokans">Ryokans</h4>
+<li>Website usually has best price, and if you are a returning guest you can get an even cheaper deal through suave negotiation tactics.
+</li></ul></li></ul>
+	<h4 id="ryokans">Ryokans</h4>
 Ryokans are bed and breakfast but there is no bed and often no breakfast.  The food is usually only on specific days of the week and the price of said food will be included in THAT DAY&#39;s rent.  The anticipation MAY be that you DO NOT LEAVE during your stay or only leave for a little time and return for meal time and leisure time SOMETIMES WITH THE OWNER OR HELPER.
 Do not be alarmed, because this is usually made clear in the booking.
 No bed means you will sleep on a mat on the floor.
-Ryokan websites exist and usually offer the best prices, however, most ryokan&#39;s are small and have limited rooms so reserving ahead of time might be necessary.</li>
-</ul>
-</li>
-</ul>
+Ryokan websites exist and usually offer the best prices, however, most ryokan&#39;s are small and have limited rooms so reserving ahead of time might be necessary.
+</div>
+<br>
+<div class="center">
 <h1 id="phone-">PHONE:</h1>
 <ul>
 <li>Download Mobimatter</li>
@@ -52,6 +186,9 @@ Ryokan websites exist and usually offer the best prices, however, most ryokan&#3
 <li>smartEX app : for getting shinkansen tickets.  can use website but app is a little easier on phone.  Register right away for use.  See transportation section for how to order ticket.</li>
 <li>Make sure your email is working on your phone. </li>
 </ul>
+</div>
+<br>
+<div class="center">
 <h1 id="what-to-do-after-landing-read-now">What to do after landing: READ NOW</h1>
 <h4 id="passing-customs">Passing Customs</h4>
 <p>Don&#39;t bring drugs.  If you bring Ibeuprofin, get those individual packs that have two pills per pack.  If you have prescriptions bring them WITH THE PRESCRIPTION
@@ -68,19 +205,27 @@ FOR EACH PASSENGER.  FILL IT OUT UNTIL YOU GET THE CONFIRMATION.  IF YOU ARE WIT
 <li>After you go through customs you will get your bags then you get to talk to<h4 id="claims">Claims</h4>
 If you are claiming anything you have to <strong>fill out a form</strong> and talk to another customs agent.  Otherwise you just answer some questions.  It&#39;s not too hard to figure out but you will probably have to ask for help.  This is probably the most stress you will have unless you get stressed about the trains which you will not if you read my section on transportation.</li>
 </ul>
+</div>
+<br>
+<div class="center">
 <h1 id="transportation">Transportation</h1>
 <p>Cars drive on the Left side of the road. </p>
 <ul>
 <li>In Tokyo people will not avoid you</li>
 <li>In Kyoto they will actively walk into you</li>
 <li>In Fukuoka they will stop and move off to the side and then hand you a gift as you pass
-Transportation is in the following types<h4 id="walking">Walking</h4>
-By far the best and most fun<h4 id="bicycle-or-rent-a-scooter">Bicycle or Rent a scooter</h4>
-If you are staying in Kyoto for several days, consider renting a bicycle. DO NOT do this the first day you land because you will crash into people.  <h4 id="car">Car</h4>
-You can rent a car IF you apply for an international license.  This can be done easily and quickly in most USA states.  I do not recommend driving your first time in a left side of the road country. <h4 id="taxi">Taxi</h4>
-You cannot call for a taxi without a Japanese phone number.  You can hail a taxi.  They are expensive but absolutely worth it.  Remember, no tipping.</li>
-</ul>
-<h4 id="trains">Trains</h4>
+Transportation is in the following types
+</li></ul>
+<h3 id="walking">Walking</h4>
+By far the best and most fun
+<h3 id="bicycle-or-rent-a-scooter">Bicycle or Rent a scooter</h4>
+If you are staying in Kyoto for several days, consider renting a bicycle. DO NOT do this the first day you land because you will crash into people.  
+<h3 id="car">Car</h4>
+You can rent a car IF you apply for an international license.  This can be done easily and quickly in most USA states.  I do not recommend driving your first time in a left side of the road country. 
+
+<h3 id="taxi">Taxi</h4>
+You cannot call for a taxi without a Japanese phone number.  You can hail a taxi.  They are expensive but absolutely worth it.  Remember, no tipping.
+<h3 id="trains">Trains</h4>
 <p>Trains are split into several categories</p>
 <ul>
 <li>Local</li>
@@ -91,7 +236,7 @@ You cannot call for a taxi without a Japanese phone number.  You can hail a taxi
 Local makes stops at every station.<br>Subway is sometimes not any different at all from local and sometimes the same train will go to both above ground and subway stations making their difference very questionable.</li>
 </ul>
 <blockquote>
-<p>[!NOTE] You can identify what type of train it is by the name or writing on the train itself</p>
+<h4> You can identify what type of train it is by the name or writing on the train itself</h4>
 </blockquote>
 <p>Trains descriptions will have:</p>
 <ul>
